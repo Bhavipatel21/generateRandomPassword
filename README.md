@@ -23,9 +23,6 @@ SO THAT I can create a strong password that provides greater security
 
 ## Web Url :
 
-<<<<<<< HEAD
-Navigate to url : https://bhavipatel21.github.io/randomPasswordGenrator/
-=======
 url : https://bhavipatel21.github.io/generateRandomPassword/
 
 ## Mock-Up
