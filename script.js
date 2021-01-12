@@ -3,7 +3,7 @@
 // 1. click button to generate a password
 var generateBtn = document.querySelector("#generate");
 
-//
+//created functions to get random upper,lower, number and specialchar 
 function getRandomUpper() {
   var upper = String.fromCharCode(Math.floor(Math.random() * 26) + 65);
   return upper;
