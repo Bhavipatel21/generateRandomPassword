@@ -3,7 +3,7 @@
 
 ## Description 
 
-As a developer i should a build an application which allows an end user to create a random password by clicking a button and selecting  character type options
+As a developer i should build an application which allows an end user to create a random password by clicking a button and selecting  character type options
 
 ## User Story
 ```
