@@ -45,7 +45,7 @@ function generatePassword() {
   //-prompt for length- at least 8 characters and no more than 128 characters
   var isPromptingAgain = userInput.length == 0;
   if (isPromptingAgain) {
-    alert("Please enter valid length range between 8 and 128");
+    alert("Please choose valid length range between 8 and 128");
     generatePassword();
     return;
   }
@@ -58,10 +58,10 @@ function generatePassword() {
 
 // -select criteria for password
   var myPassword = [];
-  var upper = confirm("Does your password includes upppercase letters ?");
-  var lower = confirm("Does your password includes lowercase letters ?");
-  var numbers = confirm("Does your password includes numbers letters ?");
-  var specialchar = confirm("Does your password includes special characters ?");
+  var upper = confirm("Does your password include upppercase letters ?");
+  var lower = confirm("Does your password include lowercase letters ?");
+  var numbers = confirm("Does your password include numbers?");
+  var specialchar = confirm("Does your password include special characters ?");
   
   //B. generate password (using selected criteria!)
   // add userinput to myPassword variable
