@@ -40,7 +40,7 @@ function generatePassword() {
     }).length > 0;
 
   if (isCancellation) {
-    return;
+    return null;
   }
   //-prompt for length- at least 8 characters and no more than 128 characters
   var isPromptingAgain = userInput.length == 0;
