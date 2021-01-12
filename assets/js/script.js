@@ -81,7 +81,7 @@ function generatePassword() {
   var currentMyPasswordLength = myPassword.length;
   if (currentMyPasswordLength === 0) {
     alert("Please choose at least one character type");
-    return;
+    return myPassword;
   }
 
   //created while loop to add remianing password length
